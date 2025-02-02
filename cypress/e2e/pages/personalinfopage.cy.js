@@ -1,12 +1,5 @@
 export class personalinfopage {
-    // first_name = '[data-testid="input-first-name"]'
-    // last_name = '[data-testid="input-last-name"]'
-    // phone = '[name="phone_number"]'
-    // date = '[data-testid="dob-day-input"] > [data-testid="ds-text-input"] > [data-testid="ds-input"]'
-    // month = '[data-testid="dob-month-input"] > [data-testid="ds-text-input"] > [data-testid="ds-input"]'
-    // year = '[data-testid="dob-year-input"] > [data-testid="ds-text-input"] > [data-testid="ds-input"]'
-     
-
+    
     fields = {
         first_name: { selector: '[data-testid="input-first-name"]', error: ':nth-child(2) > .InputHelperSection > [data-testid="error-text"]', error_text: "Please enter your first name" },
         last_name: { selector: '[data-testid="input-last-name"]', error: ':nth-child(4) > .InputHelperSection > [data-testid="error-text"]', error_text: "Please enter your last name"  },
