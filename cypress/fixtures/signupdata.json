@@ -1,0 +1,10 @@
+{
+    "signup_url": "https://app-moccona.letsweel.com/app/business-signup",
+    "login_url": "https://app-moccona.letsweel.com/app/login",
+    "newUserSignUp" : {
+        "email": "testuser@workflow.com",
+        "password": "Asdasd123!"
+    }, 
+    "invalid_emails": ["testuser@gmail.com", "testtask@yahoo.com", "testuser@mail.com", "testuser@hotmail.com"],
+    "invalid_passwords" : ["Abc!defg", "Abc12345", "abc123!@#", "ABC123!@#", "Abcdefgh", "abc!defg", "ABC!DEFG", "abc12345", "ABC12345", "1234!@#$", "abcdefgh", "ABCDEFGH", "!@#$%^&*", "12345678", "abcdefgh"]    
+} 
